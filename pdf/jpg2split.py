@@ -3,10 +3,12 @@ import string
 import fitz  # PyMuPDF
 
 # Replace 'your_pdf_file.pdf' with the path to your PDF file
-pdf_file_path = r'C:\Users\dzont\Music\pdf\22024timetable.pdf'
+# ( the location should be should be in ' ' below.)
+pdf_file_path = r' '
 
-# Create a directory to store the extracted images
-output_directory = r'C:\Users\dzont\Music\pdf\JPG'
+# Create a directory to store the extracted images. 
+# ( the location should be should be in ' ' below.)
+output_directory = r' '
 os.makedirs(output_directory, exist_ok=True)
 
 # Open the PDF file
