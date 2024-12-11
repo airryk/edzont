@@ -1,8 +1,7 @@
 from PyPDF2 import PdfReader
-#  The lines of code below is to find out the contents on my pdf line by line, so I can make proper reference to the line I want to call as the name of the file.
+
 # Replace 'your_pdf_file.pdf' with the path to your PDF file
-# ( uncomment the line below which is the output of the file location and the location should be should be in ' ' below.)
-pdf_file_path = r' '
+pdf_file_path = r'C:\Users\dzont\Music\pdf\22024timetable.pdf'
 
 # Open the PDF file
 with open(pdf_file_path, 'rb') as file:

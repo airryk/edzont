@@ -4,12 +4,10 @@ from PyPDF2 import PdfReader, PdfWriter
 
 
 # Replace 'your_pdf_file.pdf' with the path to your PDF file
-# ( the location should be should be in ' ' below.)
-pdf_file_path = r' '
+pdf_file_path = r'C:\Users\dzont\Music\pdf\22024timetable.pdf'
 
 # Create a directory to store the extracted pages
-# ( the location should be should be in ' ' below.)
-output_directory = r' '
+output_directory = r'C:\Users\dzont\Music\pdf\TEACHERS TIMETABLE NEW'
 os.makedirs(output_directory, exist_ok=True)
 
 with open(pdf_file_path, 'rb') as file:
